@@ -22,6 +22,6 @@ func alphabets() {
 func main() {
 	go numbers()
 	go alphabets()
-	time.Sleep(300 * time.Millisecond)
+	time.Sleep(3000 * time.Millisecond)
 	fmt.Println("main terminated")
 }
